@@ -29,11 +29,11 @@
   }
   
   .theme.col-3 {
-    background-color: #deb2ee;
+    background-color: $col-3;
   }
   
   .theme.col-4 {
-    background-color: #7ee6fd;
+    background-color: $col-4;
   }
   
   .theme.col-5 {
@@ -65,7 +65,7 @@
   }
   
   .theme.col-12 {
-    background-color: #80e8d1;
+    background-color:$col-12;
   }
   
   .card {
