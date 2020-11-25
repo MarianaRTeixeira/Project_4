@@ -8,6 +8,9 @@
   
   .default {
     background-color: $default;
+    &:hover {
+      background: lighten($default, 25%);
+    }
   }
   
   .error {

@@ -410,6 +410,9 @@ a {
 .default {
   background-color: #51ddfc;
 }
+.default:hover {
+  background: #cef5fe;
+}
 
 .error {
   background-color: #e4757a;
