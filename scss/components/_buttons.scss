@@ -3,59 +3,28 @@
 /* ============================================= */
 
 .btn {
-    margin-top: 15px;
-    width: 100%;
-    color: #fff;
-    border: none;
-    padding: 10px 0;
-    text-transform: uppercase;
-    border-radius: 5px;
+    @include btn;
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $default;
   }
   
   .error {
-    background-color: #e4757a;
+    background-color:$error;
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $info;
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $sucess;
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $warning;
   }
   
   
-  /* ============================================= */
-  /*              Forms                            */
-  /* ============================================= */
-  
-  .form {
-    flex-basis: 100%;
-  }
-  
-  .input{
-    display: block;
-    width: 94%;
-    margin: 10px auto 0;
-    border: none;
-    padding: 10px;
-    border-bottom: 5px solid #58e1c1;
-  }
-  
-  .hidden {
-    position:absolute;
-    left:-10000px;
-    top:auto;
-    width:1px;
-    height:1px;
-    overflow:hidden;
-  }
   

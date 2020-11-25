@@ -7,8 +7,7 @@
   }
   
   .row {
-    display: flex;
-    flex-direction: column;
+    @include display-col;
     padding: 1em 10px;
   }
   
@@ -21,11 +20,11 @@
   }
   
   .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $info;
   }
   
   .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $warning;
   }
   
   .theme.col-3 {
@@ -37,31 +36,31 @@
   }
   
   .theme.col-5 {
-    background-color: #88d9a0;
+    background-color: $col-5;
   }
   
   .theme.col-6 {
-    background-color: #4da2bb;
+    background-color: $col-6;
   }
   
   .theme.col-7 {
-    background-color: #ec9fa3;
+    background-color: $col-7;
   }
   
   .theme.col-8 {
-    background-color: #fd9f85;
+    background-color: $col-8;
   }
   
   .theme.col-9 {
-    background-color: #e4757a;
+    background-color: $error;
   }
   
   .theme.col-10 {
-    background-color: #63cc82;
+    background-color: $sucess;
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $default;
   }
   
   .theme.col-12 {

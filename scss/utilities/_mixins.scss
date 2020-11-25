@@ -1,5 +1,24 @@
+//images
 @mixin img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+//buttons
+@mixin btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+//grid
+@mixin display-col {
+    display: flex;
+    flex-direction: column;
 }

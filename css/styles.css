@@ -453,31 +453,6 @@ a {
 }
 
 /* ============================================= */
-/*              Forms                            */
-/* ============================================= */
-.form {
-  flex-basis: 100%;
-}
-
-.input {
-  display: block;
-  width: 94%;
-  margin: 10px auto 0;
-  border: none;
-  padding: 10px;
-  border-bottom: 5px solid #58e1c1;
-}
-
-.hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
-/* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
 .nav {
@@ -486,7 +461,6 @@ a {
   display: flex;
   flex-direction: column;
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -495,8 +469,7 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-
-.nav-link:hover {
+.nav-link:hoover {
   color: #fff;
   background-color: #58e1c1;
 }
