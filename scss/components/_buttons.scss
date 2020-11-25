@@ -16,28 +16,28 @@
   .error {
     background-color: $error;
     &:hover {
-      background: lighten($default, 25%);
+      background: lighten($error, 25%);
     }
   }
   
   .info {
     background-color: $info;
     &:hover {
-      background: lighten($default, 25%);
+      background: lighten($info, 25%);
     }
   }
   
   .success {
     background-color: $sucess;
     &:hover {
-      background: lighten($default, 25%);
+      background: lighten($sucess, 25%);
     }
   }
   
   .warning {
     background-color: $warning;
     &:hover {
-      background: lighten($default, 25%);
+      background: lighten($warning, 25%);
     }
   }
   
