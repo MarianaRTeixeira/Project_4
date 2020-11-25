@@ -15,18 +15,30 @@
   
   .error {
     background-color:$error;
+    &:hover {
+      background: lighten($default, 25%);
+    }
   }
   
   .info {
     background-color: $info;
+    &:hover {
+      background: lighten($default, 25%);
+    }
   }
   
   .success {
     background-color: $sucess;
+    &:hover {
+      background: lighten($default, 25%);
+    }
   }
   
   .warning {
     background-color: $warning;
+    &:hover {
+      background: lighten($default, 25%);
+    }
   }
   
   

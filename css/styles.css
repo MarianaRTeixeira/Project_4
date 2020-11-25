@@ -417,17 +417,29 @@ a {
 .error {
   background-color: #e4757a;
 }
+.error:hover {
+  background: #cef5fe;
+}
 
 .info {
   background-color: #927bc1;
+}
+.info:hover {
+  background: #cef5fe;
 }
 
 .success {
   background-color: #63cc82;
 }
+.success:hover {
+  background: #cef5fe;
+}
 
 .warning {
   background-color: #fd7856;
+}
+.warning:hover {
+  background: #cef5fe;
 }
 
 /* ============================================= */
@@ -472,7 +484,7 @@ a {
   width: 100%;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
-.nav-link:hoover {
+.nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
 }
