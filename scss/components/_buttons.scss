@@ -14,7 +14,7 @@
   }
   
   .error {
-    background-color:$error;
+    background-color: $error;
     &:hover {
       background: lighten($default, 25%);
     }
